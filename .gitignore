@@ -1,0 +1,35 @@
+# ── Model weights & caches (TBs of stuff, never check in) ─────────────
+/original/
+/fp8/
+/int4/
+/nvfp4/
+/embeddings/
+/hf-cache/
+/DeepSeek-V4-Flash-0731/
+/lost+found/
+*.safetensors
+*.safetensors.index.json
+*.bin
+*.pt
+*.pth
+*.gguf
+*.onnx
+*.ckpt
+*.h5
+
+# Environments
+/.venv/
+/eval/venv/
+venv/
+
+# Logs & runtime artifacts
+*.log
+nohup.out
+/eval/results/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
